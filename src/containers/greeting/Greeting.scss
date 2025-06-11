@@ -8,13 +8,14 @@
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  // padding: 40px 30px;
   margin: 0px auto;
   margin-top: 2rem;
 }
 
 .greeting-main {
   display: flex;
+  // padding: 0 20px;
 }
 
 .subTitle {
@@ -43,7 +44,7 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 45px;
   line-height: 1.1;
   color: $textColor !important;
 }
