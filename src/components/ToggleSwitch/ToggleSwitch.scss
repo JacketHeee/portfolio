@@ -37,11 +37,13 @@ input {
 }
 
 input:checked + .slider {
-  background-color: $toggleCheck;
+  // background-color: $toggleCheck;
+  background-color: $buttonColor;
 }
 
 input:focus + .slider {
-  box-shadow: $toggleCheck;
+  // box-shadow: $toggleCheck;
+  box-shadow: $buttonColor;
 }
 
 input:checked + .slider::before,

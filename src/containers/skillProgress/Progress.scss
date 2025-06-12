@@ -32,10 +32,20 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  min-height: 70vh;
 }
-.skills-container > * {
+.skills-container > div:first-child {
+  flex: 1.5;
+  // margin-bottom: 30px;
+}
+.skills-container > div:last-child {
   flex: 1;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
+}
+.skills-image {
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 .skills-image > img {
   margin-left: 80px;

@@ -17,7 +17,8 @@
 }
 
 .dark-menu li a:hover {
-  background-color: $buttonColor !important;
+  // background-color: $buttonColor !important;
+  color: $buttonColorHigher !important;
 }
 
 .header {
@@ -43,17 +44,20 @@
   color: $subTitle;
 }
 
-.header li a {
+.header li>a {
   display: block;
   padding: 15px 20px;
   color: $textColor;
   text-decoration: none;
 }
 
+.header li>a:hover {
+  color: $buttonColor;
+}
 .header li a:hover,
 .header .menu-btn:hover {
   // background-color: $headerHoverBG;
-  color: $buttonColor;
+  // color: $buttonColor;
 }
 
 .header .logo {
