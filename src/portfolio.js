@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Hung Manh Nguyen",
+  username: "HungManhNguyen",
   title:(
     <>
       Hi all, I'm Hung Manh Nguyen

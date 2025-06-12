@@ -1,14 +1,14 @@
 @import "../../_globalColor";
 
 .main {
-  width: 90%;
+  width: 85%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
 .greet-main {
-  width: 80%;
-  padding: 60px 0px;
+  width: 85%;
+  // padding: 60px 0px;
   // padding-top: 60px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -30,7 +30,8 @@
 }
 
 .greeting-main > * {
-  flex: 1;
+  // flex: 1;
+  width: 50%;
   margin-bottom: 30px;
 }
 

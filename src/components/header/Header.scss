@@ -23,15 +23,20 @@
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
-  padding: 15px 20px;
+  padding: 10px;
   margin: 0px auto;
 }
+
+
 
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
+  
+  display: flex;
+  align-items: center;
 }
 
 .grey-color {
@@ -47,17 +52,21 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: $headerHoverBG;
+  // background-color: $headerHoverBG;
+  color: $buttonColor;
 }
 
 .header .logo {
-  display: block;
-  flex: none;
-  float: left;
+  // display: block;
+  // flex: none;
+  // float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin-top: 10px;
+  // margin-top: 10px;
   line-height: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .header .logo-name {
@@ -66,6 +75,9 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  font-size: smaller;
+  color: $buttonColorHigher ;
+  text-shadow: 0 0 5px $buttonColorHigher, 0 0 0px $buttonColorHigher, 0 0 0px $buttonColorHigher;
 }
 
 /* menu */
