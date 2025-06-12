@@ -21,13 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "HungManhNguyen",
-  title:(
-    <>
-      Hi all, I'm Hung Manh Nguyen
-      <br />
-      You can call me ...
-    </>
-  ),
+  title: {
+    name: "Hung Manh Nguyen",
+    nickname: "..."
+  }
+  ,
   subTitle: emoji(
     "Passionate Mobile Developer 🚀"
   ),

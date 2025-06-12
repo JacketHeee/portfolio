@@ -31,15 +31,17 @@
   width: 85%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
-  min-height: 70vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 65vh;
 }
 .skills-container > div:first-child {
-  flex: 1.5;
+  flex: 1;
   // margin-bottom: 30px;
 }
 .skills-container > div:last-child {
   flex: 1;
+  padding: 30px;
   // margin-bottom: 30px;
 }
 .skills-image {
