@@ -134,7 +134,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Saigon University",
-      logo: require("./assets/images/saigonlogo.jpg"),
+      logo: require("./assets/images/saigonlogo.png"),
       subHeader: "Engineer of Information Technology",
       duration: "September 2023 – February 2028",
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -375,12 +375,12 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  // title: emoji("Contact Me ☎️"),
-  title: "Con bo biet bay",
+  title: emoji("Contact Me ☎️"),
+  // title: "Con bo ",
   subtitle:
     "Discuss a project or just want to",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "0862915493",
+  email_address: "jackethee@gmail.com"
 };
 // Twitter Section
 

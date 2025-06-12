@@ -7,15 +7,18 @@
   margin-top: 4rem;
 }
 .greet-main {
-  width: 90%;
-  // padding: 40px 30px;
+  width: 80%;
+  padding: 60px 0px;
+  // padding-top: 60px;
   margin: 0px auto;
   margin-top: 2rem;
+  // min-height: 90vh;
 }
 
 .greeting-main {
   display: flex;
   // padding: 0 20px;
+  align-items: center;
 }
 
 .subTitle {
